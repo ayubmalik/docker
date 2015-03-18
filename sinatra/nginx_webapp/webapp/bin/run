@@ -1,4 +1,6 @@
 #!/bin/bash
 
-rackup /opt/webapp/config.ru
+ruby /opt/webapp/app.rb &
+
+nginx -g "daemon off;"
 

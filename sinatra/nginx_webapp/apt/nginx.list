@@ -1,0 +1,2 @@
+deb http://nginx.org/packages/mainline/ubuntu/ utopic nginx
+deb-src http://nginx.org/packages/mainline/ubuntu/ utopic nginx
