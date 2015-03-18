@@ -6,7 +6,7 @@ class App < Sinatra::Base
   set :bind, '0.0.0.0'
 
   get '/' do
-    "<h2>DockerBook Test Sinatra app!!</h1>"
+    "<h2>DockerBook Test Nginx + Sinatra app!!</h1>"
   end
 
   post '/json/?' do
