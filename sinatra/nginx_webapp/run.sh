@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run -P --name nginx_webapp -v $PWD/webapp:/opt/webapp ayubmalik/nginx_webapp
+docker run -p 80:80 -p 4567:4567 --name nginx_webapp -v $PWD/webapp:/opt/webapp ayubmalik/nginx_webapp
