@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build --no-cache=true -t ayubmalik/nginx_webapp .
+docker build --no-cache=false -t ayubmalik/nginx_webapp .
 

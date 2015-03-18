@@ -2,7 +2,7 @@ FROM ubuntu:14.10
 
 MAINTAINER Ayub Malik "ayub.malik@example.com"
 
-ENV REFRESHED_AT 2014-03-07
+ENV REFRESHED_AT 2015-03-18
 
 # nginx
 ADD apt/nginx.list /etc/apt/sources.list.d/
@@ -24,5 +24,4 @@ EXPOSE 4567
 EXPOSE 80
 
 CMD ["/opt/webapp/bin/run"]
-
 
