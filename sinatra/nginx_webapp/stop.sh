@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker stop nginx_webapp
+docker kill nginx_webapp
 
