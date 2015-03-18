@@ -1,8 +1,7 @@
-require "rubygems"
-require "sinatra"
+require "sinatra/base"
 require "json"
 
-class App < Sinatra::Application
+class App < Sinatra::Base
 
   set :bind, '0.0.0.0'
 

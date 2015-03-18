@@ -1,4 +1,4 @@
-require '/opt/webapp/lib/app.rb'
+require './app.rb'
 
 run App
 
