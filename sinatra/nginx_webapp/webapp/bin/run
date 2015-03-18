@@ -2,5 +2,6 @@
 
 ruby /opt/webapp/app.rb &
 
-nginx -g "daemon off;"
+nginx
+
 
