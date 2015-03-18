@@ -5,10 +5,10 @@ MAINTAINER Ayub Malik "ayub.malik@example.com"
 # install nginx
 ADD apt/nginx.list /etc/apt/sources.list.d/
 ADD apt/nginx_signing.key /tmp/
-RUN apt-key add /tmp/nginx_signing.key
 
-RUN apt-get update && \
-    apt-get install -y nginx
+RUN apt-key add /tmp/nginx_signing.key
+RUN apt-get update 
+RUN apt-get install -y nginx
 
 # install ruby/sinatra
 RUN apt-get install -y -q curl ruby ruby-dev build-essential redis-tools
