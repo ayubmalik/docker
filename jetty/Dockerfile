@@ -23,8 +23,9 @@ RUN cd /tmp && \
 
 ENV JAVA_HOME /opt/jdk8
 ENV JETTY_HOME /opt/jetty
+ENV PATH $PATH:/opt/jdk8/bin
 
-RUN env
+RUN env && java -version
 
 EXPOSE 8080
 ENTRYPOINT [ "/usr/sbin/apache2" ]
